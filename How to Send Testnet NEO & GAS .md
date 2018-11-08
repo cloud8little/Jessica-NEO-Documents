@@ -1,6 +1,7 @@
 # 如何发送测试网NEO币 & GAS币
 
 测试币申请需求来自 https://neo.org/Testnet/Create, 作为管理员,可在此处 [here](https://neo.org/testnet/list)查看完整的申请列表。如果还没有管理员账号，请向 chenzhitong@neo.org 申请.
+发送完测试币之后，需[保存发送记录](#保存交易记录)，之后发送[通知邮件](#通知邮件)给用户，如收到用户问题，可参考[常见问题](#常见问题)
 
 ## 环境配置
 
@@ -28,7 +29,7 @@ OS: Windows & Linux
 
 9. 此时命令行中的*show state*的高度将会明显加快
 
-   ![show state](/Users/zhangshuyun/TestNet-GAS-or-NEO/show state.jpg)
+   ![show state](show state.jpg)
 
 10. 当最后*show state*中三个高度数字相等时，表明同步完成
 
@@ -49,7 +50,7 @@ NEO-CLI 完整命令行使用请参考http://docs.neo.org/zh-cn/node/cli/cli.htm
 
    **Result**:  Multisig. Addr.: AQwGtTiNyzrvM5mNAEiRPtHGSf6uBW23Q6
 
-![import_multisignature](/Users/zhangshuyun/Cloud8little-github/Jessica-NEO-Documents/import_multisignature.jpg)
+![import_multisignature](import_multisignature.jpg)
 
    注意： 公钥地址用空格分开，037fc87f6db91256fe6d0624feeddc1f4d5a2f698bdc5c453b55d1645134c7143b为**NEO方**的公钥地址，03c8db70ea0cd3701249004d67f26f2e78bf83f098c7a6b78c3a25acc833509de4为**申请者**的公钥地址，生成的多方签名合约地址即为： AQwGtTiNyzrvM5mNAEiRPtHGSf6uBW23Q6
 
@@ -59,9 +60,9 @@ NEO-CLI 完整命令行使用请参考http://docs.neo.org/zh-cn/node/cli/cli.htm
 
    **Result**: *TXID: 0xec423197e2534f9387281085ff731df8e3e6ac36ba6126204feba73afaacb9f9*
 
-![send_neo command](/Users/zhangshuyun/Cloud8little-github/Jessica-NEO-Documents/send_neo command.jpg)
+![send_neo command](send_neo command.jpg)
 
-![send gas command](/Users/zhangshuyun/Cloud8little-github/Jessica-NEO-Documents/send gas command.jpg)
+![send gas command](send gas command.jpg)
 
 ### NEO-GUI
 
