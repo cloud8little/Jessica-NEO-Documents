@@ -29,7 +29,7 @@ OS: Windows & Linux
 
 9. 此时命令行中的*show state*的高度将会明显加快
 
-   ![show state](show state.jpg)
+![show state](show-state.jpg)
 
 10. 当最后*show state*中三个高度数字相等时，表明同步完成
 
@@ -60,9 +60,9 @@ NEO-CLI 完整命令行使用请参考http://docs.neo.org/zh-cn/node/cli/cli.htm
 
    **Result**: *TXID: 0xec423197e2534f9387281085ff731df8e3e6ac36ba6126204feba73afaacb9f9*
 
-![send_neo command](send_neo command.jpg)
+![send_neo command](send_neo-command.jpg)
 
-![send gas command](send gas command.jpg)
+![send gas command](send-gas-command.jpg)
 
 ### NEO-GUI
 
