@@ -1,14 +1,13 @@
 ## 此脚本从csv文件里读取已发testnet的人的信息，自动发送通知邮件。 Author: MoTao
 ## 读取的csv文件由TESTNET_APPL_LIST这个值决定
 ## csv文件的格式: [pub-key, NEO-sent, GAS-sent, contract-addr, email] 
-## 
 ## SMTP自动邮箱发送限制：30封
 
 import csv
 import smtplib
 from email.message import EmailMessage
 
-TESTNET_APPL_LIST = '11-7.csv'
+TESTNET_APPL_LIST = 'sample.csv'
 
 ## Log into my own email service
 smtpObj = smtplib.SMTP('smtp-mail.outlook.com', 587)
@@ -21,7 +20,7 @@ print('Successfully logged in to' + emailAdd)
 
 ## currently cannot handle non-ascii chars bc you are using SMTP, use python email plugin instead
 def sendTestnetEmail(pubKey, contractAddr,email):
-	sender = 'zhangshuyun@neo.org'
+	sender = 'test@neo.org'
 	receiver = email
 
 	SUBJECT = 'NEO Testnet Assets Sent'
