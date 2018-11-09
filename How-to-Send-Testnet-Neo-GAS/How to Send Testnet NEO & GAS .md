@@ -29,7 +29,7 @@ OS: Windows & Linux
 
 9. 此时命令行中的*show state*的高度将会明显加快
 
-![show state](show_state.jpg)
+![show state](../assets/show_state.jpg)
 
 10. 当最后*show state*中三个高度数字相等时，表明同步完成
 
@@ -50,7 +50,7 @@ NEO-CLI 完整命令行使用请参考http://docs.neo.org/zh-cn/node/cli/cli.htm
 
    **Result**:  Multisig. Addr.: AQwGtTiNyzrvM5mNAEiRPtHGSf6uBW23Q6
 
-![import_multisignature](import_multisignature.jpg)
+![import_multisignature](../assets/import_multisignature.jpg)
 
    注意： 公钥地址用空格分开，037fc87f6db91256fe6d0624feeddc1f4d5a2f698bdc5c453b55d1645134c7143b为**NEO方**的公钥地址，03c8db70ea0cd3701249004d67f26f2e78bf83f098c7a6b78c3a25acc833509de4为**申请者**的公钥地址，生成的多方签名合约地址即为： AQwGtTiNyzrvM5mNAEiRPtHGSf6uBW23Q6
 
@@ -60,9 +60,9 @@ NEO-CLI 完整命令行使用请参考http://docs.neo.org/zh-cn/node/cli/cli.htm
 
    **Result**: *TXID: 0xec423197e2534f9387281085ff731df8e3e6ac36ba6126204feba73afaacb9f9*
 
-![send_neo command](send_neo_command.jpg)
+![send_neo command](../assets/send_neo_command.jpg)
 
-![send gas command](send_gas_command.jpg)
+![send gas command](../assets/send_gas_command.jpg)
 
 ### NEO-GUI
 
@@ -93,8 +93,8 @@ OS: Windows
 1. 准备CSV表格（可用文本编辑，列之间用逗号隔开），从左至右依次填写
 2. 脚本： [Script-Send_Emails.py](Script-Send_Emails.py)
 3. 更改参数配置
-	a. line 10:  TESTNET_APPL_LIST = 'xxxxx.csv' 
-	b. line 23:  sender = 'xxxx@neo.org'
+  - line 10:  TESTNET_APPL_LIST = 'xxxxx.csv' 
+  - line 23:  sender = 'xxxx@neo.org'
 
 ## 常见问题
 
