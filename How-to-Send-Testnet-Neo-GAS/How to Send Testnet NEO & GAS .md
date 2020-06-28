@@ -66,7 +66,7 @@ NEO-CLI 完整命令行使用请参考http://docs.neo.org/zh-cn/node/cli/cli.htm
 
 ### NEO-GUI
 
-操作流程也可参考http://docs.neo.org/en-us/network/testnet.html
+操作流程也可参考https://docs.neo.org/docs/en-us/network/testnet.html
 
 OS: Windows
 
