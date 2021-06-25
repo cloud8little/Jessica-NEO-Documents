@@ -16,4 +16,11 @@ Default there will be 21 committee member.
 | set information for committee member                         | 1.5 gas     |
 
 
+### Governance
+
+- ONly committee reward with CASH, NEO holder reward and Vote reward is in unclaimed balance account.
+- 只有委员会成员激励以现金GAS发放，NEO持有者奖励以及投票奖励都将进入unclaimed账户，需要发送一笔交易将其自动claim出来
+- If change votes in the committeemember * N th block, and vote to non-committee member, no reward. 
+
+
 
