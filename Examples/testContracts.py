@@ -7,12 +7,6 @@ import time
 headers={'content-type': 'application/json'}
 endpoint = "http://localhost:10332"
 
-APIKey = "8IP76MGUS175UDEYNJKYUUSCQ6E75ZFB8N"
-
-# url = "https://api.etherscan.io/api"
-# querydata = {"module": "stats", "action": "ethprice", "apikey": APIKey}
-# ret = requests.get(url, params = querydata)
-
 policy_contract = "0xcc5e4edd9f5f8dba8bb65734541df7a1c081c67b"
 contractmangement_contract = "0xfffdc93764dbaddd97c48f252a53ea4643faa3fd"
 committee_address = "0x411b6a1c4771c3e906425331388fc981401dc4a1"   # 7 CN   4 CN NYjarRnRtMDy1SQqd4k5pGpkjdwjQT4sbH
